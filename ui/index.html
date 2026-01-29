@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Stock Prediction System</title>
+  <link rel="stylesheet" href="/ui/style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>📈 Stock Prediction System</h1>
+    <p class="subtitle">Predict next-day High, Low & Market Trend</p>
+
+    <div class="input-box">
+      <input type="text" id="symbol" placeholder="Enter stock (e.g. TCS.NS)">
+      <button onclick="predict()">Predict</button>
+    </div>
+
+    <div id="loading" class="loading">Predicting...</div>
+
+    <div id="result" class="result-box"></div>
+  </div>
+
+  <script src="/ui/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# Models (VERY IMPORTANT)
+models/*.pkl
+
+# OS / Editor
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
